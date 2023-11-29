@@ -1,2 +1,3 @@
-for ascii_lower in range(ord('a'), ord('z') + 1):
-    print(chr(ascii_lower), end='')
+#!/usr/bin/python3
+for asciiLower in range(ord('a'), ord('z') + 1):
+    print(chr(asciiLower), end='')
