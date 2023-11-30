@@ -7,12 +7,10 @@ argument_take = sys.argv[1:]
 argument_len = len(argument_take)
 
 if (argument_len < 1):
-    print(0)
+    print('0')
 
 else:
-    for it in range(argument_len):
-        total= map(int,argument_take)
-        result = sum(total)
+    result = sum(int(k) for k in argument_take)
 
     print("{}".format(result))
 
