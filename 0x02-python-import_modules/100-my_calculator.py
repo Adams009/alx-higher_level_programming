@@ -2,9 +2,12 @@
 
 
 import sys
+
 from calculator_1 import add, sub, mul, div
-    
+
+
 def calculate(a, operator, b):
+
     if operator == '+':
         result = add(a, b)
     elif operator == '-':
@@ -19,12 +22,12 @@ def calculate(a, operator, b):
 
     print("{} {} {} = {}".format(a, operator, b, result))
 
+
 if __name__ == "__main__":
+
     if len(sys.argv) != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
 
     a, operator, b = int(sys.argv[1]), sys.argv[2], int(sys.argv[3])
     calculate(a, operator, b)
-
-
