@@ -3,7 +3,7 @@ def multiple_returns(sentence):
     count = 0
     if not sentence:
         sentence[0] = None
-        return (sentence)
+        return (0, sentence)
     for sen in sentence:
         count+= 1
 
