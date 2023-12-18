@@ -14,6 +14,6 @@ def safe_print_list(my_list=[], x=0):
         return (c)
 
     except Expection as e:
-        print(f"An error occurred: {e}")
+        print("An error occurred: {}".format(e))
 
         return (0)
