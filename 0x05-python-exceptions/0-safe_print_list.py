@@ -13,7 +13,5 @@ def safe_print_list(my_list=[], x=0):
 
         return (c)
 
-    except Expection as Error:
-        print("An error occurred")
-
-        return (0)
+    except Expection as e:
+        pass
