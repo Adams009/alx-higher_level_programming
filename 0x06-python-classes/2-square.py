@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 """ Square module"""
 
+
 class Square:
     """This is the Square class. """
 
-    def __init__(self, size):
+    def __init__(self, size=0):
         """Initializes a new instance of the Square class.
 
         Args:
