@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-"""square module"""
+"""Square module."""
 
 
 class square:
     """This is the Square class."""
 
     def __init__(self, size):
-        """Initializes a new instance of the Square class
+        """Consructor.
 
         Args:
-            size: The size of the square
+            size: The size of the square.
         """
         self.__size = size
