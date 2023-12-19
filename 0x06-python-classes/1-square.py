@@ -2,7 +2,7 @@
 """ Square module."""
 
 
-class square:
+class Square:
     """This is the Square class. """
 
     def __init__(self, size):
