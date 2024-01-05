@@ -53,5 +53,8 @@ class Rectangle:
         """ return perimeter string representation of rectangle """
         if self.__width == 0 or self.__height == 0:
             return ""
+        return '\n'.join(['#' * self.__width for j in range(self.__height)])
 
-        return '\n'.join(["#" * self.__width for j in range(self.__height)])
+    def __repr__(self):
+        """ return string representation """
+        return 'Rectangle({}, {})'.format(self.width, self.height)
