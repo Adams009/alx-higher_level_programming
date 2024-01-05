@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" The Rectangle """
+""" The Rectangle class """
 
 class Rectangle:
+    """ Empty Rep """
     pass
