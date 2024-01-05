@@ -7,7 +7,7 @@ class Rectangle:
     def __init__(self, width=0, height=0):
         """ the assignment """
         self.width = width
-        self.heigth = height
+        self.height = height
 
         @property
         def width(self):
@@ -29,7 +29,7 @@ class Rectangle:
             return self.__height
 
         @height.setter
-        def heigth(self, value):
+        def height(self, value):
             """ retriever private instance attribute height """
             if type(value) is not int:
                 raise TypeError("height must be an integer")
