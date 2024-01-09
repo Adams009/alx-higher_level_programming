@@ -1,5 +1,7 @@
 #!/usr/bin/python
-""" This module retrives all attributes and methods"""
+"""
+This module retrives all attributes and methods
+"""
 
 
 def lookup(obj):
