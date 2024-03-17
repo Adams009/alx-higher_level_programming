@@ -39,6 +39,9 @@ if __name__ == '__main__':
 
     final = []
 
+    for i in range(cuantity):
+        final.append(result_query[i][0])
+
     print(', '.join(final))
 
     cursor.close()
